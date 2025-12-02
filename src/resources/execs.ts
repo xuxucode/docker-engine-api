@@ -1,4 +1,5 @@
-import type { Effect, MobyEndpoints, MobySchemas } from 'docker-api-types'
+import type { MobyEndpoints, MobySchemas } from 'docker-api-types'
+import type { Effect } from 'docker-api-types/effect'
 import { DockerAPIResource } from '../resource'
 import { toURLSearchParams } from '../utils'
 

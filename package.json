@@ -1,11 +1,19 @@
 {
   "name": "docker-engine-api",
-  "version": "1.51.5",
+  "version": "1.51.6",
   "description": "Simple Docker Engine REST API",
   "keywords": [
     "docker",
     "moby"
   ],
+  "homepage": "https://github.com/xuxucode/docker-engine-api",
+  "bugs": {
+    "url": "https://github.com/xuxucode/docker-engine-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxucode/docker-engine-api.git"
+  },
   "author": "Xu Xu",
   "license": "MIT",
   "type": "module",
@@ -30,7 +38,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "docker-api-types": "^1.51.5"
+    "docker-api-types": "^1.51.6"
   },
   "devDependencies": {
     "@types/bun": "latest",
