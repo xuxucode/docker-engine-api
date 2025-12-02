@@ -1,4 +1,4 @@
-# Docker REST API
+# Docker Engine REST API
 
 https://docs.docker.com/reference/api/engine/
 
@@ -9,7 +9,7 @@ https://docs.docker.com/reference/api/engine/
 ## Examples
 
 ```ts
-import { Docker, UNIX_SOCKET_CONNECTION_OPTIONS } from 'docker-simple-api'
+import { Docker, UNIX_SOCKET_CONNECTION_OPTIONS } from 'docker-engine-api'
 
 async function listContainers() {
   const docker = new Docker(UNIX_SOCKET_CONNECTION_OPTIONS)

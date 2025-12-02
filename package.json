@@ -1,5 +1,5 @@
 {
-  "name": "docker-simple-api",
+  "name": "docker-engine-api",
   "version": "1.51.1",
   "description": "Simple API of Docker Engine",
   "keywords": [
