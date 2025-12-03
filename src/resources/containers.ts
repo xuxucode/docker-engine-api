@@ -32,18 +32,6 @@ export type ContainerPruneParams = NonNullable<Parameters<MobyEndpoints.Containe
 export type ContainerPruneResponse = Effect.Effect.Success<ReturnType<MobyEndpoints.Containers['prune']>>
 
 /**
- * @see https://github.com/moby/moby/blob/master/api/docs/v1.52.yaml#L5351
- */
-export type ContainerStatus
-  = | 'created'
-    | 'running'
-    | 'paused'
-    | 'restarting'
-    | 'removing'
-    | 'exited'
-    | 'dead'
-
-/**
  * @see https://github.com/leonitousconforti/the-moby-effect/blob/main/src/internal/endpoints/containers.ts
  */
 export class Containers extends DockerAPIResource {
